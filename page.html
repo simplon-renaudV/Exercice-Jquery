@@ -8,54 +8,68 @@
 	<script src="Slider-image/ideal-image-slider.js"></script>
 	<link rel="stylesheet" href="Slider-image/ideal-image-slider.css"/>
 	<link rel="stylesheet" href="Slider-image/themes/default/default.css"/>
+	
 </head>
 
 <body>
 	
 	<header>
-		<img src="images/image1.jpg"/>
+		<img src="images/image1.jpg" id="imgHeader"/>
 	</header>
 	
 	<nav>
-		<ul id="menu1">Menu 1
-			<li>item1</li>
-			<li>item2</li>
-			<li>item3</li>
-			<li>item4</li>
-		</ul>
+		<ul id="menus">
+		
+			<li id="menu1" class="clMenu">Menu 1
+				<ul>
+					<li>item1</li>
+					<li>item2</li>
+					<li>item3</li>
+					<li>item4</li>
+				</ul>
+			</li>
 
-		<ul id="menu2">Menu 2
-			<li>item1</li>
-			<li>item2</li>
-			<li>item3</li>
-			<li>item4</li>
-		</ul>
+			<li id="menu2" class="clMenu">Menu 2
+				<ul>
+					<li>item1</li>
+					<li>item2</li>
+					<li>item3</li>
+					<li>item4</li>
+				</ul>
+			</li>
 
-		<ul id="menu3">Menu 3
-			<li>item1</li>
-			<li>item2</li>
-			<li>item3</li>
-			<li>item4</li>
-		</ul>
+			<li id="menu3" class="clMenu">Menu 3
+				<ul>
+					<li>item1</li>
+					<li>item2</li>
+					<li>item3</li>
+					<li>item4</li>
+				</ul>
+			</li>
 
-		<ul id="menu4">Menu 4
-			<li>item1</li>
-			<li>item2</li>
-			<li>item3</li>
-			<li>item4</li>
+			<li id="menu4" class="clMenu">Menu 4
+				<ul>
+					<li>item1</li>
+					<li>item2</li>
+					<li>item3</li>
+					<li>item4</li>
+				</ul>
+			</li>
+		
 		</ul>
 	</nav>
+
 	<div id="diaporama">
-        <img src="images/image2.jpg" alt="">
-        <img data-src="images/image3.jpg" src="" alt="">
-        <img data-src="images/image4.jpg" src="" alt="">
+       	<img src="images/image2.jpg" alt="">
+       	<img data-src="images/image3.jpg" src="" alt="">
+       	<img data-src="images/image4.jpg" src="" alt="">
     	<img data-src="images/image5.jpg" src="" alt="">
     </div>
 
    
 	<footer>
 
-	<p>Créé en 2015</p>
+	<div><p>Créé en 2015</p></div>
 	
 	<div id="liens">
 		<a href="#">Lien1</a>
@@ -65,7 +79,7 @@
 		<a href="#">Lien5</a>
 	</div>
 
-	<p>Renaud.vivancos@free.fr</p>
+	<div><p>Renaud.vivancos@free.fr</p></div>
 
 	</footer>
 	

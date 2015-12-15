@@ -1,0 +1,54 @@
+nav
+{
+	width: 100%;
+	background-color: #1A32E6;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 50px;
+}
+
+ul
+{
+	display: inline-block;
+	list-style:none;
+}
+
+footer div
+{
+	display: inline-block;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+#imgHeader
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menus
+{
+	width: 100%
+}
+
+.clMenu
+{
+	margin-left: 8%;
+	margin-right: 8%;
+	display: inline-block;
+}
+
+.clMenu ul
+{
+	display:block;
+}
+
+li
+{
+	z-index: 500;
+}
+#diaporama
+{
+	z-index: 1;
+}
